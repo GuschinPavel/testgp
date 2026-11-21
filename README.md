@@ -7,7 +7,9 @@ REST API для управления пользователями (`id`, `name`,
 Убедитесь, что у вас установлен Docker и Docker Compose, затем выполните:
 
 git clone https://github.com/GuschinPavel/testgp
+
 cd testgp
+
 docker compose up -d
 
 После запуска API и интерактивная документация Swagger UI будут доступны по адресу:  
