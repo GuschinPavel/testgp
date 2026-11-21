@@ -6,28 +6,13 @@ REST API для управления пользователями (`id`, `name`,
 
 Убедитесь, что у вас установлен Docker и Docker Compose, затем выполните:
 
-```bash
-docker compose up --build
-```
-
-Или без Docker Compose:
-
-```bash
-docker build -t fastapi-users-crud .
-docker run -p 8000:8000 fastapi-users-crud
-```
+git clone https://github.com/GuschinPavel/testgp
+cd testgp
+docker compose up -d
 
 После запуска API и интерактивная документация Swagger UI будут доступны по адресу:  
-`http://127.0.0`
+`http://127.0.0.1:8000/docs
 
-## Локальный запуск без Docker
-
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Linux/macOS (для Windows: .venv\Scripts\activate)
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
 
 ## Эндпоинты
 
